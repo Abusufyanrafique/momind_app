@@ -53,9 +53,12 @@ class CustomButton extends StatelessWidget {
               ),
             ),
             if (icon != null) ...[
-              Icon(
-                icon,
-                color: buttontextcolor,
+              Padding(
+                padding: const EdgeInsets.only(left: 8.0),
+                child: Icon(
+                  icon,
+                  color: buttontextcolor,
+                ),
               ),
               const SizedBox(width: 8),
             ],

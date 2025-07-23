@@ -51,7 +51,7 @@ class SignUpPage extends StatelessWidget {
               SizedBox(height: 16),
                AppText(AppStrings.referral, size: 12, fontFamily: "Roboto", fontWeight: null,color:Colors.black),
                SizedBox(height: 16),
-              CustomTextField(  label: 'Enter Referral Codes', hint: '', widht: 327, height: 44, icon: Icons.refresh_outlined,iconcolor: Color(0xFF4F7BCA), ),
+              CustomTextField(  label: 'Enter Referral Code', hint: '', widht: 327, height: 44, icon: Icons.local_offer,iconcolor: Color(0xFF4F7BCA), ),
               SizedBox(height: 35),
         
               // Sign Up Button

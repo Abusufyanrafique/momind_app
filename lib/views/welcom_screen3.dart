@@ -34,7 +34,7 @@ class welcom_screen3 extends StatelessWidget {
               const SizedBox(height: 27),
               AppText(
                 AppStrings.text2,
-                size: 30,
+                size: 32,
                 // weight: FontWeight.bold,
                 fontFamily: 'Roboto',
                 color: AppColors.textwhite,

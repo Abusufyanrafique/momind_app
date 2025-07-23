@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:momind/constants/app_strings.dart';
+import 'package:momind/widgets/apptext.dart';
 
 class RainScreen2 extends StatelessWidget {
   const RainScreen2({super.key});
@@ -26,7 +28,7 @@ class RainScreen2 extends StatelessWidget {
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: 400,
+              height: 300,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
@@ -37,18 +39,11 @@ class RainScreen2 extends StatelessWidget {
                   ],
                 ),
               ),
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 30),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  const Text(
-                    'Rain',
-                    style: TextStyle(
-                      fontSize: 24,
-                      color: Colors.white,
-                      fontWeight: FontWeight.w500,
-                    ),
-                  ),
+              AppText(AppStrings.rain, fontFamily: "Roboto", fontWeight: null),
                   const SizedBox(height: 12),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

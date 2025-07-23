@@ -28,7 +28,7 @@ class welcom_screen2 extends StatelessWidget {
                 },
                 child: AppText(
                   AppStrings.text1,
-                  size: 24,
+                  size: 32,
                   // weight: FontWeight.normal,
                   fontFamily: 'Roboto',
                   fontWeight: null,

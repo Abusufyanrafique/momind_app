@@ -64,6 +64,9 @@ static const String monday ="Monday";
 static const String soundscapes ="Soundscapes";
 static const String music ="Music";
 static const String podcasts ="Podcasts";
+static const String rain ="Rain";
+static const String bird ="Birds";
+static const String stream ="Stream";
 
 
 

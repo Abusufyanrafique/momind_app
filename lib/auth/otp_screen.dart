@@ -16,7 +16,11 @@ class _OtpScreenState extends State<OtpScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-appBar: AppBar(leading: Icon(Icons.arrow_back),),
+appBar: AppBar(leading: GestureDetector(
+  onTap: () {
+    Get.back();
+  },
+  child: Icon(Icons.arrow_back)),),
 body: Container(
   child: SingleChildScrollView(
     scrollDirection: Axis.vertical,
