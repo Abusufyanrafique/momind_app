@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770736922935",
+    "project_id": "momindapp",
+    "storage_bucket": "momindapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770736922935:android:f6dff4fc8746bdc915bab2",
+        "android_client_info": {
+          "package_name": "com.example.momind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtFtY8BfGyGcnJZBVuBRFuQWxWCifvx-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
